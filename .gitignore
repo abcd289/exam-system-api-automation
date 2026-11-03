@@ -1,0 +1,32 @@
+# Python缓存
+__pycache__/
+*.py[cod]
+
+# Pytest缓存
+.pytest_cache/
+
+# PyCharm配置
+.idea/
+
+# Python虚拟环境
+venv/
+.venv/
+
+# 日志
+log/
+*.log
+
+# 本地敏感配置
+.env
+.env.*
+!.env.example
+
+# Excel临时文件
+~$*.xlsx
+
+# Allure测试结果
+allure-results/
+allure-report/
+
+# 自动化测试生成的报告
+report/
