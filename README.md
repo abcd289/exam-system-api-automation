@@ -144,6 +144,12 @@ jkzdhcs/
 │   ├── 测试用例.xlsx          # Excel 测试用例
 │   └── 测试用例完整版.xlsx    # 完整版测试用例
 │
+|——docs/
+|   ├── 自动化测试框架流程图.md
+|   ├── 典型接口测试案例.md
+|   └── images/
+|      ├── pytest-result.png
+|      └── allure-report.png
 ├── file/
 │   └── 1.png                  # 项目相关截图
 │
