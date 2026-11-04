@@ -2,7 +2,7 @@
 
 ## 一、项目简介
 
-本项目基于 Python + Pytest + Requests 搭建，针对学之思在线教育考试系统开展接口功能测试与接口自动化测试实践。
+本项目基于 Python + Pytest + Requests 搭建，针对开源在线教育考试系统开展接口功能测试与接口自动化测试实践。
 
 项目采用 Excel 数据驱动的方式管理测试用例，实现测试数据与测试代码分离，并基于 Pytest 搭建自动化测试执行框架，对 HTTP 请求、接口鉴权、响应断言、动态数据提取及数据库校验等功能进行封装。
 
@@ -40,7 +40,7 @@
 围绕学生端主要业务模块开展接口测试：
 
 - 首页：相关信息查询。
-- 试卷中心：试卷信息查询。
+- 试卷中心：试卷信息查询并进行试卷答题。
 - 考试记录：考试记录查询。
 - 错题本：错题信息查询。
 - 任务中心：考试任务查询及相关业务接口。
@@ -141,8 +141,7 @@ jkzdhcs/
 │   └── config.py              # 项目环境及数据库配置
 │
 ├── data/
-│   ├── 测试用例.xlsx          # Excel 测试用例
-│   └── 测试用例完整版.xlsx    # 完整版测试用例
+│   └── 测试用例.xlsx    # 测试用例
 │
 |——docs/
 |   ├── 自动化测试框架流程图.md
@@ -187,7 +186,7 @@ jkzdhcs/
 ### 6.2 获取项目
 
 ```bash
-git clone https://github.com/abcd289/xzs-api-test.git
+git clone https://github.com/abcd289/exam-system-api-automation.git
 ```
 
 进入项目根目录：
@@ -266,4 +265,4 @@ python run.py
 
 GitHub 项目地址：
 
-https://github.com/abcd289/xzs-api-test
+https://github.com/abcd289/exam-system-api-automation
